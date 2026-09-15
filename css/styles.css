@@ -16,3 +16,19 @@ h1, h2, h3{
     font-family: 'DM Serif Display' , Georgia, serif;
     font-weight: 400;
 }
+
+.site-nav ul{
+    list-style: none;
+    display: grid;
+    grid-template: auto / auto auto auto auto auto;
+    gap: 34px;
+    width: max-content;
+    margin: 0 auto;
+    padding: 16px 24px;
+}
+
+.site-nav{
+    color: #fbf8f3;
+    text-decoration: none;
+    font-size: 15px;
+}
